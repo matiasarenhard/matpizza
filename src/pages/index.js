@@ -1,5 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from 'next/head';
+import Image from 'next/image';
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,6 +13,10 @@ export default function Home() {
 
       <main> 
         <h1>MatPizz🍕</h1>
+        
+        <Link href="/sobre">
+          <a>Sobre</a>
+        </Link>
       </main>
     </div>
   )
