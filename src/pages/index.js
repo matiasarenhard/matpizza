@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Header from "../components/Header";
+import { slogan, address, phone, whattsapp} from "../data/matpizza.json";
 
 
 export default function Home() {
@@ -13,7 +14,15 @@ export default function Home() {
       </Head>
       <div className='container'>
         <Header />
-        <main>conteudo</main>
+        <main>
+          <h2 className='slogan'>{slogan}</h2>
+
+          <div className='info'>
+            <p><strong>🏠 Endereço: </strong>{address}</p>
+            <p><strong>☎️ Telefone: </strong>{phone}</p>
+            <p><strong>📱 whattsapp: </strong>{whattsapp}</p>
+          </div>
+        </main>
       </div>
     </>
   )
