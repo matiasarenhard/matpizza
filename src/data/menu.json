@@ -1,0 +1,39 @@
+{
+    "pizzas": [
+        { 
+            "name": "4 Queijos", 
+            "slug": "quatroqueijos",
+            "price": "R$ 30,00",
+            "photoPath": "/images/pizzas/4queijos.jpeg"
+
+        },
+
+        {
+            "name": "Frango", 
+            "slug": "frango",
+            "price": "R$ 30,00",
+            "photoPath": "/images/pizzas/frango.jpg"
+        },
+
+        {
+            "name": "Mussarela", 
+            "slug": "mussarela",
+            "price": "R$ 30,00",
+            "photoPath": "/images/pizzas/mussarela.jpg"
+        },
+
+        {
+            "name": "Calabresa", 
+            "slug": "calabresa",
+            "price": "R$ 30,00",
+            "photoPath": "/images/pizzas/calabresa.jpg"
+        },
+
+        {
+            "name": "Milho", 
+            "slug": "milho", 
+            "price": "R$ 30,00",
+            "photoPath": "/images/pizzas/milho.jpg"
+        }
+    ]
+}
