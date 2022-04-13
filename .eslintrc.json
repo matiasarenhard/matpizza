@@ -1,5 +1,6 @@
 {
-  "rules": {
-    "react/no-unescaped-entities": 0
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module"
   }
 }
