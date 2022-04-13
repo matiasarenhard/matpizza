@@ -1,8 +1,8 @@
-import Header from "../components/Header";
+import Header from "../../../components/Header";
 import Head from "next/head";
 import Link from "next/link";
 import Image from 'next/image';
-import { pizzas } from "../data/menu.json";
+import { pizzas } from "../../../data/menu.json";
 
 
 const Menu = () => { 
@@ -17,7 +17,7 @@ const Menu = () => {
 
                 {pizzas.map(({ name, price, slug, photoPath}) => (
                     <div key={name}>
-                        <Link href={`/pizzas/${slug}`}>
+                        <Link href={`/menu/pizzas/${slug}`}>
                             <a>
                                 <Image src={photoPath} alt={`Foto da pizza ${name}`} width={300} height={169}/>
                                 <p> {name} ({price})</p>
